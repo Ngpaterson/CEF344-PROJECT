@@ -6,9 +6,9 @@ import {CgTwitter} from 'react-icons/cg'
 const HeaderSocial = () => {
 return (
 <div className='header__social'>
-<a href='https://linkedin.com' target='blank'><BsLinkedin/> </a>
-<a href='https://github.com' target='blank'><FaGithub/> </a>
-<a href='https://facebook.com' target='blank'><FaFacebookF/> </a>
+<a href='https://linkedin.com/in/paterson-nguepi-6a8750267' target='blank'><BsLinkedin/> </a>
+<a href='https://github.com/Ngpaterson' target='blank'><FaGithub/> </a>
+<a href='https://facebook.com/paterson.ng.9' target='blank'><FaFacebookF/> </a>
 <a href='https://twitter.com' target='blank'><CgTwitter/> </a>
 </div>
 )
