@@ -1,5 +1,5 @@
 header{
-    height: 100vh; /*vh correspond to viewport height*/
+    height: 100vh;
     padding-top: 7rem;
     overflow: hidden;
     }
@@ -23,8 +23,7 @@ header{
     left: 0;
     bottom: 9rem;
     }
-    .header__social::after{ /*the after tag help us to draw the vertical line we have
-    after the social icons*/
+    .header__social::after{ 
     content: '';
     width: 1px;
     height: 2rem;
@@ -36,7 +35,7 @@ header{
     width: 22rem;
     Height: 15rem;
     position: absolute;
-    left: calc(50% - 11rem); /*this help to place the image to the middle of screen*/
+    left: calc(50% - 11rem); 
     margin-top: 6rem;
     border-radius: 12rem 1rem 0 0;
     overflow: hidden;
@@ -50,8 +49,8 @@ header{
     font-weight: 300;
     font-weight: 0.9rem;
     }
-    /*This is what we call media query: here we define the css that will be apply for a
-    specific screen*/
+    
+    
     @media screen and(max-width:1024px) {
     header{
     height:68vh

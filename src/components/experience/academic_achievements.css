@@ -1,0 +1,46 @@
+.ind{
+    width: 20%;
+    
+    border: solid transparent 2px;
+    border-radius: 10px;
+    color: black;
+    background-color: rgba(186, 211, 167, 0.171);
+    text-align:center;
+}
+
+.Academics{
+    width: 100%;
+    display: flex;
+    gap: 4rem;
+    justify-content: center;
+}
+.ind:hover{
+    transform: translateY(5px);
+    
+}
+
+.dw{
+    line-height:50px;
+    border: solid burlywood 1px;
+    border-radius: 10px;
+    width: 80% ;
+    display:block;
+    margin: auto;
+    margin-top: 2rem;
+    margin-bottom: 0.5rem;
+}
+
+.dw:hover{
+    background-color: white;
+    color: var(--color-bg);
+}
+
+h3{
+    line-height: 15px;
+    padding-bottom: 1rem;
+}
+.yo{
+    width: 30%;
+    margin: auto;
+    margin-bottom: 30px;
+}

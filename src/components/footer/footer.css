@@ -1,4 +1,4 @@
-.footer__container{
+.footer__container {
     background-color: var(--color-primary);
     margin-top: 2rem;
     text-align: center;
@@ -6,17 +6,18 @@
     font-size: .9rem;
 }
 
-.footer__logo{
+.footer__logo {
     font-size: 2rem;
     font-weight: 500;
     margin-bottom: 2rem;
     display: inline-block;
 }
-.footer__container a{
+
+.footer__container a {
     color: var(--color-bg);
 }
 
-.footer__container a:hover{
+.footer__container a:hover {
     color: var(--color-white);
 }
 
@@ -30,45 +31,42 @@
     margin: 0 auto 3rem;
 }
 
-.footer__media{
+.footer__media {
     display: flex;
     justify-content: center;
     gap: 2rem;
     margin-bottom: 4rem;
 }
 
-.footer__media a{
+.footer__media a {
     font-size: 1rem;
     background-color: var(--color-bg);
     color: var(--color-white);
-    padding:.8rem;
+    padding: .8rem;
     border: 1px solid transparent;
     border-radius: .7rem
 }
 
-.footer__media a:hover{
-    background:transparent;
+.footer__media a:hover {
+    background: transparent;
     color: var(--color-bg);
     border-color: var(--color-bg);
 }
 
-.copyRight{
+.copyRight {
     margin-bottom: 4rem;
     color: var(--color-bg);
 }
 
-@media screen and(max-width:1024px) {
+@media screen and(max-width:1024px) {}
 
-    
-}
-
-@media only screen and (max-width: 600px) {    
-    .permalinks{
+@media only screen and (max-width: 600px) {
+    .permalinks {
         flex-direction: column;
         gap: 1.5rem;
     }
 
-    .footer__media{
+    .footer__media {
         margin-bottom: 2.6rem;
     }
 
