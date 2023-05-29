@@ -1,0 +1,33 @@
+.in{
+    width: 15%;
+    color: black;
+    text-align:left;
+}
+
+.Academi{
+    width: 100%;
+    display: flex;
+    gap: 3rem;
+    justify-content: center;
+}
+.in:hover{
+    transform: translateY(5px);
+    
+}
+
+.Academy{
+    justify-content: center;
+}
+h3{
+    line-height: 15px;
+    padding-bottom: 1rem;
+}
+.hh{
+    color: rgb(9, 66, 33);
+    margin-top: 1px;
+    margin-bottom: 15px;
+}
+.ll{
+    color:rgb(135, 151, 165);
+    line-height: 15px;
+}

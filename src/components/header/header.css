@@ -30,8 +30,7 @@ header{
     background: var(--color-primary);
     }
     .my_image{
-    background: linear-gradient(
-    var(--color-primary), transparent);
+    background: linear-gradient(transparent,#c2ad7fc7 ,transparent);
     width: 22rem;
     Height: 15rem;
     position: absolute;
