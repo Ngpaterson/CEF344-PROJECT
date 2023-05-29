@@ -28,12 +28,14 @@
 }
 
 .about__cards{
+    
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     gap: 8rem;
 }
 
 .about__card{
+    border-radius: 10px;
     background: var(--color-bg-variant);
     border: 1px solid transparent;
     padding: 2rem;
