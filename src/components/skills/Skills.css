@@ -1,6 +1,5 @@
 .in{
     width: 15%;
-    color: black;
     text-align:left;
 }
 
@@ -15,9 +14,6 @@
     
 }
 
-.Academy{
-    justify-content: center;
-}
 h3{
     line-height: 15px;
     padding-bottom: 1rem;
@@ -31,3 +27,13 @@ h3{
     color:rgb(135, 151, 165);
     line-height: 15px;
 }
+
+@media screen and (max-width:600px) {
+    .Academi{
+    width: 100%;
+    flex-wrap: wrap;
+    }
+    .in{
+    width: 70%;
+    }
+    }

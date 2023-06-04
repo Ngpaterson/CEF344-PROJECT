@@ -6,6 +6,7 @@
     background-color: rgba(186, 211, 167, 0.171);
     position: relative;
     text-align:center;
+    
 }
 .classes{
     position: absolute;
@@ -21,7 +22,11 @@
     width: 100%;
     display: flex;
     gap: 4rem;
+    flex-wrap: wrap;
+    align-items: center;
     justify-content: center;
+    justify-self: center;
+    
 }
 .ind:hover{
     transform: translateY(5px);
@@ -50,8 +55,13 @@ h3{
     line-height: 15px;
     padding-bottom: 1rem;
 }
-.yo{
-    width: 30%;
-    margin: auto;
-    margin-bottom: 30px;
-}
+
+@media screen and (max-width:600px) {
+    .Academics{
+        width: 100%;
+        flex-wrap: wrap;
+    }
+   .ind{
+    width: 75%;
+   }
+    }

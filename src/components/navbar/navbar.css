@@ -32,3 +32,11 @@ nav a.active{
     color: var(--color-light);
 }
 
+@media screen and (max-width:600px) {
+    nav{
+    width: 98%;
+    }
+    .in{
+    width: 70%;
+    }
+    }

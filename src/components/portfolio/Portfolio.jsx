@@ -7,7 +7,7 @@ export const Portfolio = () => {
     {
       image : img1,
       github: 'https://github.com/Ngpaterson/CEF344-PROJECT.git',
-      demo: 'https://dribbble.com/shots/20177733-Apres-Brand-Identity-Design',
+      demo: 'https://paterson-nguepi.netlify.app/',
       id: 1,
       title:'Portfolio'
     },

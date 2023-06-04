@@ -53,16 +53,22 @@ header{
     }
     
     
-    @media screen and(max-width:1024px) {
-    header{
-    height:68vh
+    @media only screen and(max-width:1024px) {
+        header{
+            height:68vh
+        }
+        
     }
-    }
-    @media screen and(max-width:600px) {
-    header{
-    height:100vh
-    }
-    .header__social, .scroll__down{
-    display: none;
-    }
+    
+    @media only screen and (max-width: 600px) {
+        
+        header{
+            height:110vh;
+            
+        }
+    
+        .header__social, .scroll__down{
+            display: none;
+        }
+    
     }
