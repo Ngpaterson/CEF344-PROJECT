@@ -33,6 +33,7 @@ const Contact = () => {
               <h4>Email</h4>
               <h5>Send an e-mail</h5>
               <a
+              className='mm'
                 href="mailto:patersonnguepi@gmail.com"
                 target="_blank"
                 rel="noreferrer"
@@ -46,6 +47,7 @@ const Contact = () => {
               <h4>LinkedIn</h4>
               <h5>Profile</h5>
               <a
+              className='mm'
                 href="https://linkedin.com/in/paterson-nguepi-6a8750267"
                 target="_blank"
                 rel="noreferrer"
@@ -59,7 +61,8 @@ const Contact = () => {
               <h4>Whatsapp</h4>
               <h5>Direct message</h5>
               <a
-                href="https://web.whatsapp.com/send?phone=+237691206438"
+              className='mm'
+                href="https://wa.me/+237691206438"
                 target="_blank"
                 rel="noreferrer"
               >

@@ -21,7 +21,7 @@
 .Academics{
     width: 100%;
     display: flex;
-    gap: 4rem;
+    gap: 2rem;
     flex-wrap: wrap;
     align-items: center;
     justify-content: center;
@@ -62,6 +62,6 @@ h3{
         flex-wrap: wrap;
     }
    .ind{
-    width: 75%;
+    width: 85%;
    }
     }

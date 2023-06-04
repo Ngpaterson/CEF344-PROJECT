@@ -9,7 +9,7 @@ return (
 <a href='https://linkedin.com/in/paterson-nguepi-6a8750267' target='blank'><BsLinkedin/> </a>
 <a href='https://github.com/Ngpaterson' target='blank'><FaGithub/> </a>
 <a href='https://facebook.com/paterson.ng.9' target='blank'><FaFacebookF/> </a>
-<a href='https://web.whatsapp.com/send?phone=+237691206438' target='blank'><BsWhatsapp/> </a>
+<a href='https://wa.me/+237691206438' target='blank'><BsWhatsapp/> </a>
 </div>
 )
 }

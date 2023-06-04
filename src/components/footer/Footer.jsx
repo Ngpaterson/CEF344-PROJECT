@@ -20,16 +20,10 @@ const Footer = () => {
             <a href="#about">About</a>
           </li>
           <li>
-            <a href="#experience">Experience</a>
+            <a href="#Academy">Studies</a>
           </li>
           <li>
-            <a href="#Skills">Services</a>
-          </li>
-          <li>
-            <a href="#portfolio">Portfolio</a>
-          </li>
-          <li>
-            <a href="#testimonials">Testimonials</a>
+            <a href="#Skills">Skills</a>
           </li>
           <li>
             <a href="#contact">Contact</a>
@@ -46,7 +40,7 @@ const Footer = () => {
           <a href="https://facebook.com/paterson.ng.9" target="blank">
             <FaFacebookF />
           </a>
-          <a href="https://web.whatsapp.com/send?phone=+237691206438" target="blank">
+          <a href="https://wa.me/+237691206438" target="blank">
             <BsWhatsapp />
           </a>
         </div>

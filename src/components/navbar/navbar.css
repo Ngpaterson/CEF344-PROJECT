@@ -2,7 +2,7 @@ nav{
     background: rgba(16, 70, 5, 0.3);
     width:max-content;
     display: block;
-    padding: 0.7rem 1.7rem;
+    padding: 0.7rem 0.7rem;
     z-index: 2;
     position: fixed;
     left: 50%;
@@ -12,6 +12,7 @@ nav{
     gap: .9rem;
     border-radius: 3rem;
     backdrop-filter: blur(15px);
+    justify-content: center;
 }
 
 nav a{
@@ -32,11 +33,11 @@ nav a.active{
     color: var(--color-light);
 }
 
-@media screen and (max-width:600px) {
+ /* @media screen and (max-width:600px) {
     nav{
     width: 98%;
     }
     .in{
     width: 70%;
     }
-    }
+    }  */
