@@ -8,13 +8,13 @@ import './footer.css'
 const Footer = () => {
     return (
       <div className="footer__container">
-        <a href="#" className="footer__logo">
+        <a href="#header" className="footer__logo">
           Paterson Nguepi
         </a>
 
         <ul className="permalinks">
           <li>
-            <a href="#">Home</a>
+            <a href="#header">Home</a>
           </li>
           <li>
             <a href="#about">About</a>
@@ -23,7 +23,7 @@ const Footer = () => {
             <a href="#experience">Experience</a>
           </li>
           <li>
-            <a href="#services">Services</a>
+            <a href="#Skills">Services</a>
           </li>
           <li>
             <a href="#portfolio">Portfolio</a>

@@ -6,7 +6,7 @@ import {FaFigma} from 'react-icons/fa'
 
 const Skills= () => {
     return(
-        <section  id='Academy'>
+        <section  id='Skills'>
             <h5>What I do</h5>
             <h2>Skills</h2>
             <div className='Academi'>

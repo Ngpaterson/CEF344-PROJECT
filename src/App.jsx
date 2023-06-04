@@ -6,6 +6,7 @@ import Contact from './components/contact/Contact';
 import Footer from './components/footer/Footer';
 import Academy from './components/academic_achievements/Academic_achievements';
 import Skills from './components/skills/Skills'
+import Portfolio from './components/portfolio/Portfolio';
 function App() {
 return (
 <>
@@ -14,6 +15,7 @@ return (
 <About/>
 <Academy/>
 <Skills/>
+<Portfolio/>
 <Contact/>
 <Footer/>
 </>
