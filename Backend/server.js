@@ -6,7 +6,17 @@ const bodyParser = require("body-parser");
 
 const app = express();
 
+//Middlewares
+app.use(express.json())
+app.use(express.urlencoded({extended: false}))
+app.use(bodyParser.json());
+
 const PORT = process.env.PORT || 5000;
+
+//Routes
+app.get("/", (req, res) => {
+    res.send("Home Page");
+}) 
 
 //connect to mongo db and start server
 mongoose
