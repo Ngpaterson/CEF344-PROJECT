@@ -79,14 +79,24 @@ use('paterson');
 // );
 
 
-db.getCollection('portfolios').insertMany(
-    [
-           {
-             image: 'https://ibb.co/7GY9jjs',
-             title: 'Portfolio',
-             github: 'https://github.com/Ngpaterson/CEF344-PROJECT.git',
-             demo: 'https://paterson-nguepi.netlify.app',
-           }
+// db.getCollection('portfolios').insertMany(
+//     [
+//            {
+//              image: 'https://ibb.co/7GY9jjs',
+//              title: 'Portfolio',
+//              github: 'https://github.com/Ngpaterson/CEF344-PROJECT.git',
+//              demo: 'https://paterson-nguepi.netlify.app',
+//            }
    
-            ]
+//             ]
+//    );
+//    https://www.gettyimages.fr/detail/photo/portfolio-image-libre-de-droits/175431947
+
+   db.portfolios.updateMany(
+    {title:'Portfolio'},
+    { $set: { image:'https://dribbble.com/shots/21795748-patport?added_first_shot=true&new_shot_upload=true&utm_source=Clipboard_Shot&utm_campaign=ngpaterson&utm_content=patport&utm_medium=Social_Share&utm_source=Clipboard_Shot&utm_campaign=ngpaterson&utm_content=patport&utm_medium=Social_Share'}}
    );
+
+  //  db.testimonials.deleteMany({
+  //   name: 'Louisa McBrown'
+  //  });
