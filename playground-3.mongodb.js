@@ -79,7 +79,7 @@ use('paterson');
 // );
 
 
-db.getCollection('portfolio').insertMany(
+db.getCollection('portfolios').insertMany(
     [
            {
              image: 'https://ibb.co/7GY9jjs',

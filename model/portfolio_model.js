@@ -1,5 +1,5 @@
 const mongoose = require("mongoose");
-const portfoliomodel = new mongoose.model("portfolio", mongoose.Schema({
+const portfoliomodel = new mongoose.model("portfolios", mongoose.Schema({
 
     _id: String,
     image: String,
