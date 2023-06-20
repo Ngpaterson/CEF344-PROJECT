@@ -1,13 +1,15 @@
  .portfolio__container{
     justify-content: center;
-    width: 100%;
+    width: 80%;
     display: flex; 
     gap: 4rem;
     justify-content: center;
+    flex-wrap: wrap;
+   
 } 
 
 .portfolio__item{
-    width: 34.5%;
+    width: 22%;
     background: var(--color-bg-variant);
     padding:1.3rem;
     border-radius: 2rem;
