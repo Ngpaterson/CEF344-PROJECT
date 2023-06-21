@@ -2,52 +2,52 @@
 use('paterson');
 
 // Insert a few documents into the PortfolioData collection.
-// db.getCollection('projects').insertMany(
-//     [
-//         {
+db.getCollection('testimonials').insertMany(
+    [
+        {
           
-//             image: 'https://cdn.dribbble.com/userupload/7518943/file/original-b39a16475b25ac10559e04034bd8b9b7.png?compress=1&resize=1504x1128',
-//             title: 'Online Crypto Casino',
-//             github: 'https://github.com',
-//             demo: 'https://dribbble.com/shots/21632973-Online-Crypto-Casino-Mobile-Designs',
-//         },
-//         {
+            image: 'https://cdn.dribbble.com/userupload/7518943/file/original-b39a16475b25ac10559e04034bd8b9b7.png?compress=1&resize=1504x1128',
+            title: 'Online Crypto Casino',
+            github: 'https://github.com',
+            demo: 'https://dribbble.com/shots/21632973-Online-Crypto-Casino-Mobile-Designs',
+        },
+        {
        
-//             image: 'https://cdn.dribbble.com/userupload/7531024/file/original-28960363b0b1e5a03c2f6f1f077c298e.jpg?compress=1&resize=1504x1128',
-//             title: 'Education App UIX',
-//             github: 'https://github.com',
-//             demo: 'https://dribbble.com/shots/21637001-Education-App-UIX',
-//         },
-//         {
-//             image: 'https://cdn.dribbble.com/userupload/7474794/file/original-ec5e3ff0615f4ec018a8662d76206bde.jpg?compress=1&resize=1504x1126',
-//             title: 'Recipe app design',
-//             github: 'https://github.com',
-//             demo: 'https://dribbble.com/shots/21617723-Recipe-app-design',
-//         },
-//         {
+            image: 'https://cdn.dribbble.com/userupload/7531024/file/original-28960363b0b1e5a03c2f6f1f077c298e.jpg?compress=1&resize=1504x1128',
+            title: 'Education App UIX',
+            github: 'https://github.com',
+            demo: 'https://dribbble.com/shots/21637001-Education-App-UIX',
+        },
+        {
+            image: 'https://cdn.dribbble.com/userupload/7474794/file/original-ec5e3ff0615f4ec018a8662d76206bde.jpg?compress=1&resize=1504x1126',
+            title: 'Recipe app design',
+            github: 'https://github.com',
+            demo: 'https://dribbble.com/shots/21617723-Recipe-app-design',
+        },
+        {
         
-//             image: 'https://cdn.dribbble.com/userupload/7527073/file/original-a56488a4a04a23bfbeb97cafc030dde5.png?compress=1&resize=1504x1128',
-//             title: 'OnStep - Shoes Store',
-//             github: 'https://github.com',
-//             demo: 'https://dribbble.com/shots/21635811-OnStep-Shoes-Store',
-//         },
-//         {
+            image: 'https://cdn.dribbble.com/userupload/7527073/file/original-a56488a4a04a23bfbeb97cafc030dde5.png?compress=1&resize=1504x1128',
+            title: 'OnStep - Shoes Store',
+            github: 'https://github.com',
+            demo: 'https://dribbble.com/shots/21635811-OnStep-Shoes-Store',
+        },
+        {
      
-//             image: 'https://cdn.dribbble.com/users/5147614/screenshots/17480773/media/77bbee6dafd811f65d14bd38f4c426ab.png?compress=1&resize=1200x900&vertical=top',
-//             title: 'Mobile App Exploration',
-//             github: 'https://github.com',
-//             demo: 'https://dribbble.com/shots/17480773-NWS-Mobile-App-Exploration',
-//         },
-//         {
+            image: 'https://cdn.dribbble.com/users/5147614/screenshots/17480773/media/77bbee6dafd811f65d14bd38f4c426ab.png?compress=1&resize=1200x900&vertical=top',
+            title: 'Mobile App Exploration',
+            github: 'https://github.com',
+            demo: 'https://dribbble.com/shots/17480773-NWS-Mobile-App-Exploration',
+        },
+        {
        
-//             image: 'https://cdn.dribbble.com/userupload/7528445/file/original-4b13d4c68619e9e932565427083bb19d.jpg?compress=1&resize=1504x1126',
-//             title: 'Recipe app',
-//             github: 'https://github.com',
-//             demo: 'https://dribbble.com/shots/21636337-Recipe-app',
-//         }
+            image: 'https://cdn.dribbble.com/userupload/7528445/file/original-4b13d4c68619e9e932565427083bb19d.jpg?compress=1&resize=1504x1126',
+            title: 'Recipe app',
+            github: 'https://github.com',
+            demo: 'https://dribbble.com/shots/21636337-Recipe-app',
+        }
 
-//     ]
-// ); 
+    ]
+); 
 
 // Insert a few documents into the PortfolioData collection.
 // db.getCollection('testimonials').insertMany(
@@ -92,10 +92,10 @@ use('paterson');
 //    );
 //    https://www.gettyimages.fr/detail/photo/portfolio-image-libre-de-droits/175431947
 
-   db.portfolios.updateMany(
-    {title:'Portfolio'},
-    { $set: { image:'https://dribbble.com/shots/21795748-patport?added_first_shot=true&new_shot_upload=true&utm_source=Clipboard_Shot&utm_campaign=ngpaterson&utm_content=patport&utm_medium=Social_Share&utm_source=Clipboard_Shot&utm_campaign=ngpaterson&utm_content=patport&utm_medium=Social_Share'}}
-   );
+   // db.portfolios.updateMany(
+   //  {title:'Portfolio'},
+   //  { $set: { image:'https://dribbble.com/shots/21795748-patport?added_first_shot=true&new_shot_upload=true&utm_source=Clipboard_Shot&utm_campaign=ngpaterson&utm_content=patport&utm_medium=Social_Share&utm_source=Clipboard_Shot&utm_campaign=ngpaterson&utm_content=patport&utm_medium=Social_Share'}}
+   // );
 
   //  db.testimonials.deleteMany({
   //   name: 'Louisa McBrown'
