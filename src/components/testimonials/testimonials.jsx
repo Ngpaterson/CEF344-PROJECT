@@ -36,9 +36,9 @@ const Testimonial = () => {
       spaceBetween={40}
       slidesPerView={1}
       pagination={{ clickable: true }}
-      scrollbar={{ draggable: true }}
+      // scrollbar={{ draggable: true }}
       >
-        {data.map((id, avatar, name, review) => (
+        {data.map(({id, avatar, name, review}) => (
             <SwiperSlide key={id} className="testimonial">
               <div className="client__avatar">
                 <img src={avatar} alt= {name} />
