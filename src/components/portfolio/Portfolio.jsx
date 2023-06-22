@@ -21,16 +21,7 @@ const Portfolio = () => {
       console.log("Error fetching portfolio data:", error);
     })
   }, [])
-  // const portfolioContent = [
-  //   {
-  //     image : img1,
-  //     github: 'https://github.com/Ngpaterson/CEF344-PROJECT.git',
-  //     demo: 'https://paterson-nguepi.netlify.app/',
-  //     id: 1,
-  //     title:'Portfolio'
-  //   },
 
-  // ]
   return (
     <section id="portfolio">
       <h5>My recent work</h5>
