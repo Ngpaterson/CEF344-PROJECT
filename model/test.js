@@ -6,6 +6,6 @@ const UserSchema = {
     name: String,
     review: String    
   }  
-  const User = mongoose.model("testimonials", UserSchema);
+  const User = mongoose.model("tests", UserSchema);
   
   module.exports = User;
