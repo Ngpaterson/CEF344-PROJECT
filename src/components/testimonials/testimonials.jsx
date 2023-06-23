@@ -3,12 +3,55 @@ import axios from 'axios';
 import "./testimonials.css"
 import { Swiper, SwiperSlide } from 'swiper/react';
 import { Pagination, Navigation, Scrollbar, A11y } from 'swiper';
-
+import Popup from 'reactjs-popup';
+import 'reactjs-popup/dist/index.css';
 import 'swiper/css';
 import 'swiper/css/pagination';
 
 
-const Testimonial = () => {
+function Testimonial() {
+
+  const [input, setInput] = useState({
+    avatar: '',
+    name:'',
+    review:''    
+  })
+
+function handleChange(event){
+  const{name, value}=event.target;
+
+  setInput(prevInput => {
+    return{
+      ...prevInput,
+      [name]:value
+    }
+  })
+}
+
+function handleClick(event){
+  event.preventDefault();
+  console.log(input);
+  const newUser ={
+    avatar: input.avatar,
+    name: input.name,
+    review: input.review,      
+  }
+  //Address of the backend server to post our data
+  axios.post('https://nguepi-backend.cyclic.app/api/create', newUser)
+  alert("Testimonial Sent successfully");
+}
+
+const handleSubmit = (e) => {
+  e.preventDefault();
+}
+
+const [showPopup, setShowPopup] = useState(false);
+
+  const togglePopup = () => {
+    setShowPopup(!showPopup);
+  }
+
+
 
   const[data, setData] = useState([]);
 
@@ -49,7 +92,68 @@ const Testimonial = () => {
           
         ))}
       </Swiper>
+
+      <Popup trigger ={
+  <button onClick={togglePopup} 
+  className="btn" id='tes'>Testify</button>}
+  modal nested>{
+    close => (
+      <div className="main-1">
+<div className="main-form2">
+  <div className="form2">
+    <form onSubmit={handleSubmit}>
+    <h2 className="GIT">Get in touch</h2>
+    <h4>Avatar</h4>
+
+    <input
+      className = "avatar" 
+      type="text"
+      name="avatar"
+      value={input.avatar}
+      autoComplete="off"
+      placeholder="Avatar-image link"
+      onChange={handleChange}
+      required
+    />
+
+    <h4>Name</h4>
+
+    <input
+      className = "name" 
+      type="text"
+      name="name"
+      value={input.name}
+      autoComplete="off"
+      placeholder="Name"
+      onChange={handleChange}
+      required
+    />
+
+    <h4> Your Review </h4>
+
+    <input 
+      className = "review"
+      type="text"
+      value={input.review}
+      required
+      name="review"
+      placeholder = "Review" 
+      onChange={handleChange}
+    />
+      <button type="submit" onClick={handleClick}
+      className="btn-1 btn-primary-1">
+      Submit</button>
+    </form>
+  </div>
+</div>
+</div>
+)
+  }
+</Popup>
     </section>
+
+
   );
-};
+}
+
 export default Testimonial;

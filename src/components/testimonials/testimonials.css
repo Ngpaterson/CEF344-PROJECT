@@ -20,6 +20,9 @@
     user-select: none;
 
 }
+#tes{
+    position: relative;
+}
 
 .client__review{
     color: var(--color-light);
@@ -32,6 +35,10 @@
     background: var(--color-primary);
 
 }
+input{
+    color:red;
+}
+
 
 @media only screen and (max-width:1024px) {
     .container.testimonials__container{
