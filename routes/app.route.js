@@ -12,7 +12,7 @@ routes.route("/create").post((req, res) => {
     const name = req.body.name;
     const review = req.body.review;
     
-    const newUser = new Take({
+    const newUser = new User({
       avatar,      
       name,
       review,
