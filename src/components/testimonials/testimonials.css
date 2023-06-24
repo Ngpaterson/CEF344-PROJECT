@@ -21,7 +21,9 @@
 
 }
 #tes{
-    position: relative;
+    position: center;
+    align-content: center;
+    margin-left: 30%;
 }
 
 .client__review{
