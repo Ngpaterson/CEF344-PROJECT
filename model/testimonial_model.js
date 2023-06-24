@@ -6,18 +6,18 @@ const mongoose = require("mongoose");
 //     name: String,
 //     review: String
 //  }   
-//  const Take = mongoose.model("tests", Schema);
+//   const Take = mongoose.model("tests", Schema);
 
-// module.exports = Take;
+//  module.exports = Take;
 
-const Take = new mongoose.model("tests", mongoose.Schema({
+// const Take = new mongoose.model("tests", mongoose.Schema({
 
-    _id: String,
-    avatar: String,
-    name: String,
-    review: String,
-}))
+//     _id: String,
+//     avatar: String,
+//     name: String,
+//     review: String,
+// }))
 
-module.exports = {
-     Take
-}
+// module.exports = {
+//      Take
+// }

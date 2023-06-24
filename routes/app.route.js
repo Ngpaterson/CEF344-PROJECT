@@ -5,7 +5,7 @@ const Take = require("../model/testimonial_model.js");
 
 routes.get("/portfolio", controller.portfolioAppRoute);
 // routes.get("/testimonial", controller.testimonialAppRoute);
-routes.get("/take", controller.testAppRoute);
+// routes.get("/take", controller.testAppRoute);
 
 routes.route("/create").post((req, res) => {
     const avatar = req.body.avatar; //parsing the fronend request name to dbname
@@ -21,9 +21,9 @@ routes.route("/create").post((req, res) => {
 });
 
 
-// routes.route("/take").get((req, res) => {
-//   User.find()
-//   .then(foundTake => res.json(foundTake))
-// })
+routes.route("/take").get((req, res) => {
+  User.find()
+  .then(foundTake => res.json(foundTake))
+})
 
 module.exports = routes

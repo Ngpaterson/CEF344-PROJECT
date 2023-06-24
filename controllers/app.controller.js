@@ -16,17 +16,17 @@
     }
 }
 
-exports.testAppRoute = async(req, res) => {
-  try {
-      items = await Take.find({});
-      return res.status(200).send({
-          message: "Success",
-          data: items
-      })
-  } catch(error) {
-      res.status(500).json({ error: "Internal server error"})
-  }
-}
+// exports.testAppRoute = async(req, res) => {
+//   try {
+//       items = await Take.find({});
+//       return res.status(200).send({
+//           message: "Success",
+//           data: items
+//       })
+//   } catch(error) {
+//       res.status(500).json({ error: "Internal server error"})
+//   }
+// }
 
 // routes.route("/take").get((req, res) => {
 //   User.find()
