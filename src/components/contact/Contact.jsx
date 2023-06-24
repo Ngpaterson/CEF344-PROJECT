@@ -7,20 +7,23 @@ import {BsWhatsapp} from 'react-icons/bs'
 import {useRef} from 'react'
 import emailjs from 'emailjs-com'
 
+
+
 const Contact = () => {
   const form = useRef();
+  
 
   const sendEmail = (e) => {
       e.preventDefault();
 
-      emailjs.sendForm('service_5vuauza', 'template_fdnnl56', form.current, 'EmSdUNQzQuxkUqGWx')
-      e.target.reset() 
-      .then((result) => {
-        console.log(result.text)
-      },(error) =>{
-        console.log(error.text);
-      });
-  };
+      emailjs.sendForm('service_0sqmswp', 'template_kar1ju6', form.current, 'WHdcYdysYFQXwx46C')
+      // e.target.reset() 
+      // .then((result) => {
+      //   console.log(result.text)
+      // },(error) =>{
+      //   console.log(error.text);
+      }
+  
     return (
       <section id="contact">
         <h5>Get in touch</h5>
