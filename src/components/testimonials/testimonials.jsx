@@ -57,7 +57,7 @@ const [showPopup, setShowPopup] = useState(false);
 
   useEffect(()=> {
     axios.get("https://nguepi-backend.cyclic.app/api/take").then(response => {
-      const formattedData = response.data.data.map(item => ({
+      const formattedData = response.data.map(item => ({
         id: item._id,
         avatar: item.avatar,
         name: item.name,
