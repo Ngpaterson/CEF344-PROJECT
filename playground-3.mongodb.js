@@ -92,9 +92,10 @@ use('paterson');
 //    );
 //    https://www.gettyimages.fr/detail/photo/portfolio-image-libre-de-droits/175431947
 
-    db.portfolios.updateMany(
-     {title:'Portfolio'},
-     { $set: { image:'https://cdn.dribbble.com/userupload/7966176/file/original-590e9ab267e3a80251835f796e1cbcb9.png?compress=1&resize=1024x515'}}
+    db.tests.updateMany(
+     {name:'Jeff Stones'},
+     { $set: { review:'We were impressed with Paterson,s ability to work independently and deliver high-quality work on time and within budget. As a junior front-end developer, they were able to bring fresh ideas and creative solutions to our website redesign project. They were always willing to listen to our feedback and make changes as needed. We highly recommend Paterson to anyone looking for a talented and reliable front-end developer.',
+            avatar:'https://img.freepik.com/photos-premium/portrait-homme-afro-americain-beau-elegant-dans-veste-noire-mode-chemise-blanche-col-cravate-elegante-posant-arriere-plan-du-paysage-urbain-bureaux-verre-manhattan_175356-7011.jpg'}}
     );
 
 //    db.testimonials.deleteMany({
